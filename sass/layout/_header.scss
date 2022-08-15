@@ -24,4 +24,18 @@
     img {
         display: block;
     }
+
+    .menu-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn{
+        background-color: red;
+        border-radius: 16px;
+    }
+
+    a.hover{
+        background-color: aqua;
+    }
 }

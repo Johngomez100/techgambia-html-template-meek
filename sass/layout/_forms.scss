@@ -1,5 +1,7 @@
 @include placeholder {
     color: lighten($text-color, 10%);
+    font-size: 70%;
+    font-family: $font-family-base;
 }
 
 input[type="text"],
@@ -17,8 +19,8 @@ input[type="time"],
 input[type="url"],
 textarea {
     -webkit-appearance: none;
-    background-color: transparent;
-    border-radius: 0;
+    background-color: $deoration-color;
+    border-radius: 3px;
     border: 1px solid #cccccc;
     color: $text-color;
     font-family: $font-family-base;
@@ -33,7 +35,7 @@ textarea {
 
 select {
     -webkit-appearance: none;
-    background-color: transparent;
+    background-color: $deoration-color;
     border-radius: 0;
     border: 1px solid #cccccc;
     color: $text-color;
@@ -46,6 +48,8 @@ textarea {
     line-height: 1.5;
     min-height: 118px;
     padding: 10px 12px;
+    border: 1px solid $deoration-color;
+
 }
 
 .wpcf7 {
