@@ -1,7 +1,19 @@
 {
-    "facebook": "\\f101",
-    "instagram": "\\f102",
-    "linkedin": "\\f103",
-    "pinterest": "\\f104",
-    "twitter": "\\f105"
+    "app-developer": "\\f101",
+    "businessman": "\\f102",
+    "computer": "\\f103",
+    "correct": "\\f104",
+    "email": "\\f105",
+    "facebook": "\\f106",
+    "instagram": "\\f107",
+    "linkedin": "\\f108",
+    "location": "\\f109",
+    "mobile-app": "\\f10a",
+    "phone-call": "\\f10b",
+    "send-message": "\\f10c",
+    "stars": "\\f10d",
+    "twitter": "\\f10e",
+    "web-design": "\\f10f",
+    "website": "\\f110",
+    "youtube": "\\f111"
 }

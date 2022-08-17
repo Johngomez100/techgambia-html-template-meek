@@ -60,11 +60,11 @@ nav ul,
             a {
                 font-size: 18px;
                 font-weight: 400;
-                color: inherit;
+                color: $text-color;
                 position: relative;
 
                 &:hover {
-                    color: #d1d1d1;
+                    color:$text-color;
                     &:before{
                         content: "...";
                         position: absolute;
@@ -75,7 +75,7 @@ nav ul,
                     }
                 }
                 &:active{
-                    color: white;
+                    color: $text-color;
                     &:before{
                         content: "...";
                         position: absolute;

@@ -84,12 +84,12 @@ h6,
 }
 
 a {
-    color: $link-color;
+    color: $text-color;
     transition: color 200ms ease;
     text-decoration: none;
 
     &:hover {
-        color: $brand-color;
+        color: $brand-color-alt;
     }
 }
 
